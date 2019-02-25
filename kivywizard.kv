@@ -1,0 +1,131 @@
+<ScreenManagement>:
+    PaginaInicial:
+    LabelConfig:
+    Introducao:
+    DesSust:
+    DeSa:
+    Autores:
+    Final:
+    Quiz:
+    Sobre:
+ 
+<PaginaInicial>:
+    name: 'paginaInicial'
+    BoxLayout:
+        orientation: 'vertical'
+
+        Button:
+            on_release: app.root.switch_to_introducao()
+            text: 'Introdução'
+        Button:
+            on_release: app.root.switch_to_DesSust()
+            text: 'Como Preparar Adubo Orgânico 1 - Composto Granulado'
+        Button:
+            on_release: app.root.switch_to_DeSa()
+            text: 'Como Preparar Adubo Orgânico 2 - Torta de Mamona'
+        Button:
+            on_release: app.root.switch_to_Autores()
+            text: 'Como Preparar Adubo Orgânico 3 - Composteira Caseira'
+        Button:
+            on_release: app.root.switch_to_Final()
+            text: 'Como Preparar Adubo Orgânico 4 - Composto Líquido'
+        Button:
+            on_release: app.root.switch_to_Quiz()
+            text: 'Comece a Plantar Hoje! - Girassol'
+        Button:
+            on_release: app.root.switch_to_Sobre()
+            text: 'Paisagismo Para Ambiente Interno'
+        Button:
+            on_release: app.root.switch_to_Sobre()
+            text: 'Uso de Lampadas Incandecentes Para Paisagismo Sustentável'
+ 
+<Introducao>:
+    name: 'introducao'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um  widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
+
+<DesSust>:
+    name: 'DesSust'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um  widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
+
+<DeSa>:
+    name: 'DeSa'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um  widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
+
+<Autores>:
+    name: 'Autores'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um  widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
+
+<Final>:
+    name: 'Final'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um  widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
+
+<Quiz>:
+    name: 'Quiz'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um  widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
+
+<Sobre>:
+    name: 'Sobre'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um  widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
