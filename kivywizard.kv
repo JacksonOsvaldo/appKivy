@@ -2,12 +2,13 @@
     PaginaInicial:
     LabelConfig:
     Introducao:
-    DesSust:
-    DeSa:
-    Autores:
-    Final:
-    Quiz:
-    Sobre:
+    A02:
+    A03:
+    A04:
+    A05:
+    A06:
+    A07:
+    A08:
  
 <PaginaInicial>:
     name: 'paginaInicial'
@@ -18,25 +19,25 @@
             on_release: app.root.switch_to_introducao()
             text: 'Introdução'
         Button:
-            on_release: app.root.switch_to_DesSust()
+            on_release: app.root.switch_to_A02()
             text: 'Como Preparar Adubo Orgânico 1 - Composto Granulado'
         Button:
-            on_release: app.root.switch_to_DeSa()
+            on_release: app.root.switch_to_A03()
             text: 'Como Preparar Adubo Orgânico 2 - Torta de Mamona'
         Button:
-            on_release: app.root.switch_to_Autores()
+            on_release: app.root.switch_to_A04()
             text: 'Como Preparar Adubo Orgânico 3 - Composteira Caseira'
         Button:
-            on_release: app.root.switch_to_Final()
+            on_release: app.root.switch_to_A05()
             text: 'Como Preparar Adubo Orgânico 4 - Composto Líquido'
         Button:
-            on_release: app.root.switch_to_Quiz()
+            on_release: app.root.switch_to_A06()
             text: 'Comece a Plantar Hoje! - Girassol'
         Button:
-            on_release: app.root.switch_to_Sobre()
+            on_release: app.root.switch_to_A07()
             text: 'Paisagismo Para Ambiente Interno'
         Button:
-            on_release: app.root.switch_to_Sobre()
+            on_release: app.root.switch_to_A08()
             text: 'Uso de Lampadas Incandecentes Para Paisagismo Sustentável'
  
 <Introducao>:
@@ -52,8 +53,8 @@
             on_release: app.root.switch_to_paginaInicial()
             text: 'Retorno'
 
-<DesSust>:
-    name: 'DesSust'
+<A02>:
+    name: 'A02'
      
     BoxLayout:
         orientation: 'vertical'
@@ -65,8 +66,8 @@
             on_release: app.root.switch_to_paginaInicial()
             text: 'Retorno'
 
-<DeSa>:
-    name: 'DeSa'
+<A03>:
+    name: 'A03'
      
     BoxLayout:
         orientation: 'vertical'
@@ -78,8 +79,8 @@
             on_release: app.root.switch_to_paginaInicial()
             text: 'Retorno'
 
-<Autores>:
-    name: 'Autores'
+<A04>:
+    name: 'A04'
      
     BoxLayout:
         orientation: 'vertical'
@@ -91,8 +92,8 @@
             on_release: app.root.switch_to_paginaInicial()
             text: 'Retorno'
 
-<Final>:
-    name: 'Final'
+<A05>:
+    name: 'A05'
      
     BoxLayout:
         orientation: 'vertical'
@@ -104,8 +105,8 @@
             on_release: app.root.switch_to_paginaInicial()
             text: 'Retorno'
 
-<Quiz>:
-    name: 'Quiz'
+<A06>:
+    name: 'A06'
      
     BoxLayout:
         orientation: 'vertical'
@@ -117,8 +118,21 @@
             on_release: app.root.switch_to_paginaInicial()
             text: 'Retorno'
 
-<Sobre>:
-    name: 'Sobre'
+<A07>:
+    name: 'A07'
+     
+    BoxLayout:
+        orientation: 'vertical'
+ 
+        Label:
+            text: 'Configurações de um  widget Label'
+             
+        Button:
+            on_release: app.root.switch_to_paginaInicial()
+            text: 'Retorno'
+
+<A08>:
+    name: 'A08'
      
     BoxLayout:
         orientation: 'vertical'

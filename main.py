@@ -20,22 +20,25 @@ class LabelConfig(Screen):
 class Introducao(Screen):
     pass
 
-class DesSust(Screen):
+class A02(Screen):
     pass
 
-class DeSa(Screen):
+class A03(Screen):
     pass
 
-class Autores(Screen):
+class A04(Screen):
     pass
 
-class Final(Screen):
+class A05(Screen):
     pass
 
-class Quiz(Screen):
+class A06(Screen):
     pass
 
-class Sobre(Screen):
+class A07(Screen):
+    pass
+
+class A08(Screen):
     pass
 
 class ScreenManagement(ScreenManager):
@@ -43,23 +46,26 @@ class ScreenManagement(ScreenManager):
     def switch_to_introducao(self):
         self.current = 'introducao'
     
-    def switch_to_DesSust(self):
-        self.current = 'DesSust'
+    def switch_to_A02(self):
+        self.current = 'A02'
 
-    def switch_to_DeSa(self):
-        self.current = 'DeSa'
+    def switch_to_A03(self):
+        self.current = 'A03'
          
-    def switch_to_Autores(self):
-        self.current = 'Autores'
+    def switch_to_A04(self):
+        self.current = 'A04'
 
-    def switch_to_Final(self):
-        self.current = 'Final'
+    def switch_to_A05(self):
+        self.current = 'A05'
 
-    def switch_to_Quiz(self):
-        self.current = 'Quiz'
+    def switch_to_A06(self):
+        self.current = 'A06'
 
-    def switch_to_Sobre(self):
-        self.current = 'Sobre'
+    def switch_to_A07(self):
+        self.current = 'A07'
+
+    def switch_to_A08(self):
+        self.current = 'A08'
     
     def switch_to_paginaInicial(self):
         self.current = 'paginaInicial'
